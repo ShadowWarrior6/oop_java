@@ -21,4 +21,7 @@ class cat{
         return age;
 
     }
+    public void greet () {
+    System.out.printf("Мяу! Меня зовут %s. Мне %s года(лет).", name, age);
+  }
 }
